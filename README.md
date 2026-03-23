@@ -6,23 +6,23 @@ Este repositorio es mi biblioteca personal de bloques de código reutilizables. 
 
 ## 🏗️ Estructura del Repositorio
 
-La lógica está organizada por lenguajes y áreas de aplicación:
+La lógica está organizada por lenguajes y áreas de aplicación para facilitar su reusabilidad:
 
-- **`/java`**: Utilidades de lógica de negocio, POO avanzada y ejercicios de clase de DAM.
-- **`/csharp-unity`**: Scripts de movimiento, gestión de stats y sistemas para mi Action Roguelite.
+- **`/java`**: Utilidades de lógica de negocio, validación de entradas y ejercicios avanzados de DAM.
+- **`/csharp-unity`**: Scripts de persistencia (DontDestroyOnLoad), gestión de stats y sistemas para mi Action Roguelite.
+- **`/web`**: Estructuras en HTML/CSS y utilidades de **JavaScript** (Fetch API) para carga dinámica de componentes.
 - **`/sql`**: Consultas complejas, diseños de bases de datos y scripts de optimización.
-- **`/web`**: Estructuras útiles en HTML, CSS y manejo de JSON/XML.
 
 ---
 
 ## 🚀 Filosofía de Trabajo
-- **DRY (Don't Repeat Yourself):** Si lo escribo dos veces, lo convierto en un snippet.
-- **Clean Code:** Código legible y bien comentado para facilitar su mantenimiento.
-- **Alto Rendimiento:** Implementaciones optimizadas para evitar cuellos de botella en videojuegos.
+- **DRY (Don't Repeat Yourself):** Si una solución es útil en más de un proyecto, se convierte en un snippet aquí.
+- **Clean Code:** Código legible, estructurado y comentado para un mantenimiento eficiente.
+- **Eficiencia:** Implementaciones optimizadas para evitar redundancias, especialmente en el desarrollo de videojuegos.
 
 ---
 
 ## 🔧 Cómo usarlo
-Cada carpeta contiene un archivo descriptivo sobre cómo implementar los fragmentos en proyectos reales. 
+Cada carpeta incluye su propio archivo `README.md` con instrucciones específicas sobre la implementación de los fragmentos en proyectos reales.
 
 *"La disciplina en el código es el reflejo de la disciplina en la vida."*
