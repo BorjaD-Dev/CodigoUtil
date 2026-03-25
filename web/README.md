@@ -7,20 +7,21 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 ## 📂 Organización de la Carpeta
 
 ### 1. 🏗️ Estructura y Arquitectura (`/js`)
-- **`ComponentLoader.js`**: Utilidad que utiliza la **Fetch API** para cargar fragmentos de HTML (como headers y footers) de forma dinámica. Esto permite mantener un sitio web estático de forma modular sin duplicar código.
+- **`ComponentLoader.js`**: Utilidad que utiliza la **Fetch API** para cargar fragmentos de HTML (como headers y footers) de forma dinámica. Permite modularidad sin duplicar código.
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
-Herramientas diseñadas para mejorar la experiencia de usuarios con necesidades diversas y reducir la fatiga visual.
+Herramientas diseñadas para mejorar la experiencia de usuario y reducir la fatiga visual.
 
-- **`/lupa`**: Implementación de una **Lupa Real Óptica** mediante clonación del DOM. Permite un zoom del 200% siguiendo el cursor del ratón sin deformar el layout original.
-- **Próximamente**: Modo Noche/Día, Tipografía para Dislexia y Menús de alta visibilidad.
+- **`/lupa`**: Implementación de una **Lupa Real Óptica** mediante clonación del DOM. Zoom del 200% dinámico.
+- **`/contrast`**: Sistema de **Modo Noche/Día** con persistencia. Utiliza variables CSS para forzar un alto contraste y mejorar la legibilidad en diferentes entornos lumínicos.
+- **Próximamente**: Tipografía para Dislexia y Menús de alta visibilidad (Botones Grandes).
 
 ---
 
 ## 🚀 Tecnologías Aplicadas
-- **JavaScript (ES6+)**: Manipulación avanzada del DOM, Promises y Event Listeners.
-- **CSS3**: Variables globales, animaciones `transition` y posicionamiento `fixed/absolute`.
-- **UX Design**: Enfoque en la facilidad de uso y reducción de la carga cognitiva.
+- **JavaScript (ES6+)**: Manipulación del DOM, Promises y **Web Storage API (localStorage)** para persistencia de preferencias.
+- **CSS3**: Variables globales (`:root`), selectores de clase dinámica y animaciones de transición suave.
+- **UX Design**: Enfoque en la autonomía del usuario y reducción de la carga cognitiva.
 
 ---
 
