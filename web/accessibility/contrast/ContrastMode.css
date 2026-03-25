@@ -1,0 +1,31 @@
+/* Botón flotante para el cambio de modo */
+.floating-btn {
+    position: fixed; right: 20px; top: 58%; transform: translateY(-50%);
+    z-index: 10000; width: 60px; height: 60px; border-radius: 50%;
+    background: #f1c40f; color: white; border: 3px solid #ecf0f1;
+    font-size: 28px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease; display: flex; align-items: center; justify-content: center;
+}
+
+/* --- CONFIGURACIÓN MODO CLARO --- */
+body.light-mode {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+}
+
+/* Forzamos el contraste en elementos comunes */
+body.light-mode h1, 
+body.light-mode h2, 
+body.light-mode p, 
+body.light-mode section,
+body.light-mode .caja {
+    color: #1a1a1a !important;
+    background-color: #f4f4f4 !important;
+    border-color: #ddd !important;
+}
+
+/* El botón cambia de color al activarse */
+body.light-mode .floating-btn {
+    background-color: #333;
+    color: #fff;
+}
