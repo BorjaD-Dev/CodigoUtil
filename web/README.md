@@ -10,18 +10,19 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 - **`ComponentLoader.js`**: Utilidad que utiliza la **Fetch API** para cargar fragmentos de HTML (como headers y footers) de forma dinámica. Permite modularidad sin duplicar código.
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
-Herramientas diseñadas para mejorar la experiencia de usuario y reducir la fatiga visual.
+Herramientas diseñadas para mejorar la experiencia de usuario y reducir la carga cognitiva o visual.
 
-- **`/lupa`**: Implementación de una **Lupa Real Óptica** mediante clonación del DOM. Zoom del 200% dinámico.
-- **`/contrast`**: Sistema de **Modo Noche/Día** con persistencia. Utiliza variables CSS para forzar un alto contraste y mejorar la legibilidad en diferentes entornos lumínicos.
-- **Próximamente**: Tipografía para Dislexia y Menús de alta visibilidad (Botones Grandes).
+- **`/lupa`**: Implementación de una **Lupa Real Óptica** mediante clonación del DOM. Zoom del 200% dinámico siguiendo el cursor.
+- **`/contrast`**: Sistema de **Modo Noche/Día** con persistencia en `localStorage`. Optimiza la legibilidad según el entorno.
+- **`/menu`**: Sistema de **Menú Simplificado** con botones de gran formato. Diseñado para mejorar la accesibilidad motriz y visual mediante áreas de clic extensas y feedback visual reforzado.
+- **Próximamente**: Tipografía para Dislexia (Modo Lectura).
 
 ---
 
 ## 🚀 Tecnologías Aplicadas
-- **JavaScript (ES6+)**: Manipulación del DOM, Promises y **Web Storage API (localStorage)** para persistencia de preferencias.
-- **CSS3**: Variables globales (`:root`), selectores de clase dinámica y animaciones de transición suave.
-- **UX Design**: Enfoque en la autonomía del usuario y reducción de la carga cognitiva.
+- **JavaScript (ES6+)**: Manipulación avanzada del DOM, Promises y persistencia de preferencias.
+- **CSS3**: Layouts adaptables (Flexbox), variables globales, y pseudo-clases de estado (`:focus`, `:hover`).
+- **UX Design**: Enfoque en accesibilidad motriz, visual y cognitiva.
 
 ---
 
