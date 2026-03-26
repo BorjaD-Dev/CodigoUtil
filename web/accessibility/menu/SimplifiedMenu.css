@@ -1,0 +1,59 @@
+/* ===============================================
+   MENÚ SIMPLIFICADO - BOTONES DE GRAN FORMATO
+   =============================================== */
+
+/* Contenedor flexible que adapta los botones según el ancho de pantalla */
+.menu-simplificado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* El botón de gran formato: Enfocado a accesibilidad motriz y visual */
+.btn-acceso {
+    flex: 1 1 280px; /* Crece y se adapta, mínimo 280px */
+    min-height: 220px;
+    background-color: #1c1c1c;
+    border: 5px solid #ff5c5c; /* Borde grueso para alta visibilidad */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+/* Icono dentro del botón (Emoji o FontAwesome) */
+.icon-grande {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+/* Texto dentro del botón: Tipografía clara y espaciada */
+.texto-boton {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* --- EFECTO INTERACTIVO DE ALTO CONTRASTE --- */
+.btn-acceso:hover, 
+.btn-acceso:focus {
+    transform: scale(1.05);
+    background-color: #ff5c5c;
+    border-color: #ffffff;
+    outline: 4px solid #ff5c5c; /* Indicador de foco extra para navegación por teclado */
+}
+
+.btn-acceso:hover .texto-boton,
+.btn-acceso:focus .texto-boton {
+    color: #000;
+}
