@@ -7,24 +7,24 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 ## 📂 Organización de la Carpeta
 
 ### 1. 🏗️ Estructura y Arquitectura (`/js`)
-- **`ComponentLoader.js`**: Utilidad que utiliza la **Fetch API** para cargar fragmentos de HTML (como headers y footers) de forma dinámica. Permite modularidad sin duplicar código.
+- **`ComponentLoader.js`**: Utilidad basada en la **Fetch API** para cargar fragmentos de HTML dinámicamente. Permite una arquitectura modular en sitios estáticos.
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
-Herramientas diseñadas para mejorar la experiencia de usuario y reducir la carga cognitiva o visual.
+Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga cognitiva y eliminar barreras visuales.
 
-- **`/lupa`**: Implementación de una **Lupa Real Óptica** mediante clonación del DOM. Zoom del 200% dinámico siguiendo el cursor.
-- **`/contrast`**: Sistema de **Modo Noche/Día** con persistencia en `localStorage`. Optimiza la legibilidad según el entorno.
-- **`/menu`**: Sistema de **Menú Simplificado** con botones de gran formato. Diseñado para mejorar la accesibilidad motriz y visual mediante áreas de clic extensas y feedback visual reforzado.
-- **Próximamente**: Tipografía para Dislexia (Modo Lectura).
+- **`/lupa`**: **Lupa Real Óptica**. Implementa clonación del DOM para un zoom del 200% fluido que sigue el cursor.
+- **`/contrast`**: **Modo Noche/Día** con persistencia en `localStorage`. Optimiza el contraste según las necesidades lumínicas del usuario.
+- **`/menu`**: **Menú Simplificado**. Botones de gran formato con feedback visual reforzado para accesibilidad motriz y visual.
+- **`/reading-mode`**: **Modo Lectura Pro**. Modifica la arquitectura de la página para eliminar distracciones, aplica un fondo sepia y utiliza la tipografía **OpenDyslexic** para mejorar la comprensión lectora.
 
 ---
 
 ## 🚀 Tecnologías Aplicadas
-- **JavaScript (ES6+)**: Manipulación avanzada del DOM, Promises y persistencia de preferencias.
-- **CSS3**: Layouts adaptables (Flexbox), variables globales, y pseudo-clases de estado (`:focus`, `:hover`).
-- **UX Design**: Enfoque en accesibilidad motriz, visual y cognitiva.
+- **JavaScript (ES6+)**: Manipulación avanzada del DOM, Promises, persistencia de datos y gestión de eventos.
+- **CSS3**: Variables globales (`:root`), layouts adaptables (Flexbox/Grid), y fuentes especializadas.
+- **UX Design**: Enfoque en accesibilidad motriz, visual y cognitiva (principios WCAG).
 
 ---
 
 ## 🛠️ Cómo implementar
-Para usar estos snippets, asegúrate de respetar la jerarquía de carpetas definida en los scripts o ajustar las rutas de los archivos `.html` y `.css` correspondientes.
+Para usar estos snippets, asegúrate de respetar la jerarquía de carpetas definida en los scripts o ajustar las rutas de los archivos `.html` y `.css` correspondientes en cada componente.
