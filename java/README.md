@@ -1,6 +1,6 @@
-# ☕ Java Utilities
+# ☕ Java Utilities & OOP Patterns
 
-[cite_start]Esta sección contiene fragmentos de código y clases de utilidad desarrolladas durante mi formación en **DAM**[cite: 24]. El objetivo es centralizar soluciones a problemas comunes de lógica de negocio y gestión de datos.
+Esta sección contiene fragmentos de código, clases de utilidad y patrones de diseño desarrollados durante mi formación en **DAM**. El objetivo es centralizar soluciones a problemas comunes de lógica de negocio y arquitectura de software.
 
 ---
 
@@ -8,13 +8,16 @@
 
 ### 1. Validación de Entradas (`Validaciones.java`)
 Métodos estáticos para asegurar que los datos introducidos por el usuario a través de la consola sean correctos, evitando excepciones comunes como `NumberFormatException`.
-
-- **Uso principal**: Menús de selección y captura de rangos numéricos.
+- **Uso**: Menús de selección y captura de rangos numéricos.
 - **Técnicas**: Manejo de excepciones (Try-Catch) y bucles de control.
+
+### 2. Estructuras Base OOP (`/oop`)
+Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables.
+- **`BaseEntity.java`**: Clase abstracta base que implementa los principios de **Herencia** y **Encapsulación**. Define atributos comunes (Nombre, ID) y obliga a las subclases a implementar métodos de visualización mediante polimorfismo.
 
 ---
 
 ## 🚀 Próximas Implementaciones
+- [ ] Implementación de Interfaces para Servicios (DAO Pattern).
 - [ ] Conexiones base a Base de Datos (JDBC).
-- [ ] [cite_start]Serialización de objetos a JSON/XML.
-- [ ] Algoritmos de ordenación personalizados.
+- [ ] Algoritmos de ordenación y búsqueda personalizados.
