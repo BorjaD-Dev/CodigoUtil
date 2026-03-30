@@ -11,9 +11,14 @@ Métodos estáticos para asegurar que los datos introducidos por el usuario a tr
 - **Uso**: Menús de selección y captura de rangos numéricos.
 - **Técnicas**: Manejo de excepciones (Try-Catch) y bucles de control.
 
-### 2. Estructuras Base OOP (`/oop`)
+### 2. Utilidades Matemáticas (`MathUtils.java`)
+Lógica auxiliar para cálculos estadísticos y probabilísticos, comunes en simuladores y videojuegos.
+- **Uso**: Cálculo de porcentajes de victoria, tasas de éxito y redondeo de datos.
+- **Técnicas**: Métodos estáticos y casting de tipos (`double`).
+
+### 3. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables.
-- **`BaseEntity.java`**: Clase abstracta base que implementa los principios de **Herencia** y **Encapsulación**. Define atributos comunes (Nombre, ID) y obliga a las subclases a implementar métodos de visualización mediante polimorfismo.
+- **`BaseEntity.java`**: Clase abstracta base que implementa los principios de **Herencia** y **Encapsulación**. Define atributos comunes y obliga a las subclases a implementar métodos de visualización mediante polimorfismo.
 
 ---
 
