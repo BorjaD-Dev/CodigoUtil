@@ -16,13 +16,18 @@ Lógica auxiliar para cálculos estadísticos y probabilísticos, comunes en sim
 - **Uso**: Cálculo de porcentajes de victoria, tasas de éxito y redondeo de datos.
 - **Técnicas**: Métodos estáticos y casting de tipos (`double`).
 
-### 3. Estructuras Base OOP (`/oop`)
-Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables.
-- **`BaseEntity.java`**: Clase abstracta base que implementa los principios de **Herencia** y **Encapsulación**. Define atributos comunes y obliga a las subclases a implementar métodos de visualización mediante polimorfismo.
+### 3. Gestión de Colecciones (`ListUtils.java`)
+Herramientas para simplificar el manejo de listas y estructuras de datos complejas.
+- **Uso**: Búsqueda lineal de objetos por atributos únicos (DNI, ID, Nombre) en listas genéricas.
+- **Técnicas**: Algoritmos de búsqueda, Generics (`<? extends Persona>`) e iteración eficiente.
+
+### 4. Estructuras Base OOP (`/oop`)
+Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
+- **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
 ---
 
 ## 🚀 Próximas Implementaciones
 - [ ] Implementación de Interfaces para Servicios (DAO Pattern).
 - [ ] Conexiones base a Base de Datos (JDBC).
-- [ ] Algoritmos de ordenación y búsqueda personalizados.
+- [ ] Algoritmos de ordenación avanzados (QuickSort/BubbleSort).
