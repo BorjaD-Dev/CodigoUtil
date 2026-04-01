@@ -21,7 +21,12 @@ Herramientas para simplificar el manejo de listas y estructuras de datos complej
 - **Uso**: Búsqueda lineal de objetos por atributos únicos (DNI, ID, Nombre) en listas genéricas.
 - **Técnicas**: Algoritmos de búsqueda, Generics (`<? extends Persona>`) e iteración eficiente.
 
-### 4. Estructuras Base OOP (`/oop`)
+### 4. Generación Aleatoria (`RandomUtils.java`)
+Herramienta para la creación de valores aleatorios controlados, esencial en lógica de juegos y simulaciones.
+- **Uso**: Generar resultados de partidos, eventos inesperados o datos de test.
+- **Técnicas**: Clase `java.util.Random` y algoritmos de acotación de rangos.
+
+### 5. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
 - **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
