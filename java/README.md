@@ -26,7 +26,12 @@ Herramienta para la creación de valores aleatorios controlados, esencial en ló
 - **Uso**: Generar resultados de partidos, eventos inesperados o datos de test.
 - **Técnicas**: Clase `java.util.Random` y algoritmos de acotación de rangos.
 
-### 5. Estructuras Base OOP (`/oop`)
+### 5. Gestión de Consola (`ConsoleUtils.java`)
+Pequeñas utilidades para mejorar la interacción con el usuario final a través de la terminal.
+- **Uso**: Crear pausas de lectura ("Presione Enter para continuar").
+- **Técnicas**: Uso de `java.util.Scanner` para control de flujo.
+
+### 6. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
 - **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
