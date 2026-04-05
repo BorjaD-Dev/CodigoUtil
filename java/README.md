@@ -32,9 +32,9 @@ Pequeñas utilidades para mejorar la interacción con el usuario final a través
 - **Técnicas**: Uso de `java.util.Scanner` para control de flujo.
 
 ### 6. Gestión de Archivos (`FileUtils.java`)
-Utilidades para el manejo de archivos en el sistema local.
-- **Uso**: Verificar existencia de ficheros antes de operaciones de lectura/escritura.
-- **Técnicas**: Uso de la clase `java.io.File`.
+Utilidades para el manejo y análisis de archivos en el sistema local.
+- **Uso**: Verificar existencia y contar volumen de datos (líneas) en ficheros.
+- **Técnicas**: Uso de `java.io.File` y `BufferedReader`.
 
 ### 7. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
