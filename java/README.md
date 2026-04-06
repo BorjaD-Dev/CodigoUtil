@@ -36,7 +36,12 @@ Utilidades para el manejo y análisis de archivos en el sistema local.
 - **Uso**: Verificar existencia y contar volumen de datos (líneas) en ficheros.
 - **Técnicas**: Uso de `java.io.File` y `BufferedReader`.
 
-### 7. Estructuras Base OOP (`/oop`)
+### 7. Excepciones Personalizadas (`/exceptions`)
+Patrones para la gestión de errores específica del dominio de la aplicación.
+- **Uso**: Crear avisos claros cuando los datos no cumplen las reglas de negocio.
+- **Técnicas**: Herencia de la clase `Exception` y sobreescritura de constructores.
+
+### 8. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
 - **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
