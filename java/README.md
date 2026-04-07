@@ -41,7 +41,12 @@ Patrones para la gestión de errores específica del dominio de la aplicación.
 - **Uso**: Crear avisos claros cuando los datos no cumplen las reglas de negocio.
 - **Técnicas**: Herencia de la clase `Exception` y sobreescritura de constructores.
 
-### 8. Estructuras Base OOP (`/oop`)
+### 8. Diseño de Interfaz de Consola (`MenuUtils.java`)
+Herramientas para mejorar la estética de aplicaciones por terminal.
+- **Uso**: Generar cabeceras dinámicas y limpieza visual de la interfaz.
+- **Técnicas**: Manipulación de Strings y métodos repetitivos.
+
+### 9. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
 - **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
