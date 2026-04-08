@@ -46,7 +46,12 @@ Herramientas para mejorar la estética de aplicaciones por terminal.
 - **Uso**: Generar cabeceras dinámicas y limpieza visual de la interfaz.
 - **Técnicas**: Manipulación de Strings y métodos repetitivos.
 
-### 9. Estructuras Base OOP (`/oop`)
+### 9. Estándares de Documentación (`/docs`)
+Guías y plantillas para la generación de documentación técnica automatizada.
+- **Uso**: Mantener un código legible para equipos de desarrollo.
+- **Técnicas**: Uso de etiquetas Javadoc (`@author`, `@version`, `@param`).
+
+### 10. Estructuras Base OOP (`/oop`)
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
 - **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
