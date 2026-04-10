@@ -16,3 +16,8 @@ Script sencillo que utiliza `DontDestroyOnLoad` para evitar que un GameObject se
 Lógica para la creación de "drops" con comportamiento físico realista.
 - **Uso**: Lanzamiento de ítems al destruir enemigos o cofres.
 - **Técnicas**: Aplicación de `ForceMode.Impulse` y `AddTorque` mediante `Rigidbody`.
+
+### 3. Arquitectura y Desacoplamiento (`/interfaces`)
+Uso de interfaces para crear sistemas modulares y escalables.
+- **`IDamageable.cs`**: Interfaz base para cualquier entidad que pueda recibir daño. Facilita la creación de proyectiles y armas universales.
+- **Técnicas**: Polimorfismo y Clean Code en Unity.
