@@ -21,3 +21,8 @@ Lógica para la creación de "drops" con comportamiento físico realista.
 Uso de interfaces para crear sistemas modulares y escalables.
 - **`IDamageable.cs`**: Interfaz base para cualquier entidad que pueda recibir daño. Facilita la creación de proyectiles y armas universales.
 - **Técnicas**: Polimorfismo y Clean Code en Unity.
+
+### 4. Utilidades de Transformación (`TransformUtils.cs`)
+Métodos para simplificar el posicionamiento y rotación de objetos en el espacio 3D.
+- **`LookAtLockedY`**: Permite orientar un objeto hacia un objetivo bloqueando la rotación vertical. Crucial para evitar deformaciones visuales en enemigos terrestres cuando el jugador salta.
+- **Técnicas**: Manipulación de vectores (Vector3) y el método `Transform.LookAt`.
