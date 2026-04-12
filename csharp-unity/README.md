@@ -26,3 +26,8 @@ Uso de interfaces para crear sistemas modulares y escalables.
 Métodos para simplificar el posicionamiento y rotación de objetos en el espacio 3D.
 - **`LookAtLockedY`**: Permite orientar un objeto hacia un objetivo bloqueando la rotación vertical. Crucial para evitar deformaciones visuales en enemigos terrestres cuando el jugador salta.
 - **Técnicas**: Manipulación de vectores (Vector3) y el método `Transform.LookAt`.
+
+### 5. Sistemas de Salud (`/systems`)
+Componentes para la gestión de estados vitales de las entidades.
+- **`BaseHealth.cs`**: Implementación base de salud. Utiliza **UnityEvents** para notificar la muerte a otros componentes (como el sistema de partículas o el `LootSpawner`).
+- **Técnicas**: Encapsulación, implementación de interfaces y eventos delegados.
