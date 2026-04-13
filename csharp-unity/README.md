@@ -31,3 +31,8 @@ Métodos para simplificar el posicionamiento y rotación de objetos en el espaci
 Componentes para la gestión de estados vitales de las entidades.
 - **`BaseHealth.cs`**: Implementación base de salud. Utiliza **UnityEvents** para notificar la muerte a otros componentes (como el sistema de partículas o el `LootSpawner`).
 - **Técnicas**: Encapsulación, implementación de interfaces y eventos delegados.
+
+### 6. Inteligencia Artificial (`/ai`)
+Controladores y utilidades para el comportamiento de entidades no jugables.
+- **`NavSteering.cs`**: Envoltorio para `NavMeshAgent` que asegura la navegación y evita errores de "Invalid NavMesh" en tiempo de ejecución.
+- **Técnicas**: Validación de estado de agente (`isOnNavMesh`) y gestión de rutas.
