@@ -36,3 +36,8 @@ Componentes para la gestión de estados vitales de las entidades.
 Controladores y utilidades para el comportamiento de entidades no jugables.
 - **`NavSteering.cs`**: Envoltorio para `NavMeshAgent` que asegura la navegación y evita errores de "Invalid NavMesh" en tiempo de ejecución.
 - **Técnicas**: Validación de estado de agente (`isOnNavMesh`) y gestión de rutas.
+
+### 7. Optimización de Memoria (`/utils`)
+Patrones para reducir el impacto del Garbage Collector en juegos de alto rendimiento.
+- **`GenericObjectPool.cs`**: Clase base para gestionar el reciclaje de objetos. Evita el uso excesivo de `Instantiate` y `Destroy` en tiempo de ejecución.
+- **Técnicas**: Uso de colas (`Queue`), herencia y expansión dinámica de memoria.
