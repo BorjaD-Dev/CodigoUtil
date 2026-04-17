@@ -41,3 +41,8 @@ Controladores y utilidades para el comportamiento de entidades no jugables.
 Patrones para reducir el impacto del Garbage Collector en juegos de alto rendimiento.
 - **`GenericObjectPool.cs`**: Clase base para gestionar el reciclaje de objetos. Evita el uso excesivo de `Instantiate` y `Destroy` en tiempo de ejecución.
 - **Técnicas**: Uso de colas (`Queue`), herencia y expansión dinámica de memoria.
+
+### 8. Feedback Visual (`/visuals`)
+Componentes para mejorar la experiencia de usuario y el "game feel" mediante respuestas visuales inmediatas.
+- **`BlinkEffect.cs`**: Sistema que intercambia los materiales de un modelo por un material de impacto (normalmente blanco sólido) durante un breve periodo.
+- **Técnicas**: Corrutinas, almacenamiento de materiales originales (Caching) y soporte para múltiples Renderers en un solo objeto.
