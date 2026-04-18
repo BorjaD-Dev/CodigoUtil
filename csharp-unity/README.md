@@ -43,6 +43,6 @@ Patrones para reducir el impacto del Garbage Collector en juegos de alto rendimi
 - **Técnicas**: Uso de colas (`Queue`), herencia y expansión dinámica de memoria.
 
 ### 8. Feedback Visual (`/visuals`)
-Componentes para mejorar la experiencia de usuario y el "game feel" mediante respuestas visuales inmediatas.
-- **`BlinkEffect.cs`**: Sistema que intercambia los materiales de un modelo por un material de impacto (normalmente blanco sólido) durante un breve periodo.
-- **Técnicas**: Corrutinas, almacenamiento de materiales originales (Caching) y soporte para múltiples Renderers en un solo objeto.
+Componentes diseñados para mejorar el "Game Feel" mediante respuestas visuales inmediatas a las acciones del juego.
+- **`BlinkEffect.cs`**: Sistema de parpadeo por materiales. Permite que cualquier entidad (jugador, enemigo u objeto rompible) brille al recibir daño.
+- **Técnicas**: Gestión de matrices de materiales (`Material[][]`), Corrutinas y soporte nativo para **Object Pooling** (limpieza en `OnDisable`).
