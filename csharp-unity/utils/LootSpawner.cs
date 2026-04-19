@@ -1,37 +1,52 @@
 using UnityEngine;
 
-/**
- * Utilidad para instanciar objetos con efecto de "explosión" física.
- * Extraído del sistema de combate de Action Roguelite.
- */
-public static class LootSpawner
+namespace CodigoUtil.Utils
 {
-    /**
-     * Lanza un prefab con una fuerza y dirección aleatoria.
-     * @param prefab El objeto a instanciar (monedas, items, etc).
-     * @param posicion Punto de origen del lanzamiento.
-     * @param fuerza Magnitud del impulso.
-     */
-    public static void LanzarObjeto(GameObject prefab, Vector3 posicion, float fuerza)
+    /// <summary>
+    /// Gestiona la instanciación y expulsión física de objetos (Loot).
+    /// Extraído de la lógica original de EnemigoBasico.cs para mayor modularidad.
+    /// </summary>
+    public class LootSpawner : MonoBehaviour
     {
-        if (prefab == null) return;
+        [Header("Configuración de Físicas")]
+        [SerializeField] private float fuerzaExplosion = 4f;
+        [SerializeField] private float radioDispersion = 0.3f;
 
-        GameObject objeto = Object.Instantiate(prefab, posicion, Quaternion.identity);
-        Rigidbody rb = objeto.GetComponent<Rigidbody>();
-
-        if (rb != null)
+        /// <summary>
+        /// Instancia un prefab y le aplica una fuerza física aleatoria hacia arriba.
+        /// </summary>
+        /// <param name="prefab">El objeto a soltar.</param>
+        /// <param name="posicionBase">Punto de origen del drop.</param>
+        public void SpawnLoot(GameObject prefab, Vector3 posicionBase)
         {
-            // Dirección aleatoria hacia arriba y a los lados
-            Vector3 direccion = new Vector3(
-                Random.Range(-1f, 1f), 
-                1.5f, 
-                Random.Range(-1f, 1f)
-            ).normalized;
+            if (prefab == null) return;
 
-            rb.AddForce(direccion * fuerza, ForceMode.Impulse);
+            // Calculamos el desplazamiento aleatorio basado en el radio de dispersión
+            Vector3 desplazamiento = new Vector3(
+                Random.Range(-radioDispersion, radioDispersion),
+                0f,
+                Random.Range(-radioDispersion, radioDispersion)
+            );
+
+            Vector3 posicionFinal = posicionBase + (Vector3.up * 0.5f) + desplazamiento;
             
-            // Añade un giro aleatorio para que se vea más natural
-            rb.AddTorque(new Vector3(Random.value, Random.value, Random.value) * 10f);
+            GameObject objetoInstanciado = Instantiate(prefab, posicionFinal, Quaternion.identity);
+            Rigidbody rb = objetoInstanciado.GetComponent<Rigidbody>();
+
+            if (rb != null)
+            {
+                // Dirección aleatoria con sesgo hacia arriba (1.5f en Y)
+                Vector3 direccionImpulso = new Vector3(
+                    Random.Range(-1f, 1f), 
+                    1.5f, 
+                    Random.Range(-1f, 1f)
+                ).normalized;
+
+                rb.AddForce(direccionImpulso * fuerzaExplosion, ForceMode.Impulse);
+                
+                // Aplicamos rotación aleatoria para que el drop se vea más natural
+                rb.AddTorque(new Vector3(Random.value, Random.value, Random.value) * 10f);
+            }
         }
     }
 }
