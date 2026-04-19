@@ -14,8 +14,9 @@ Script sencillo que utiliza `DontDestroyOnLoad` para evitar que un GameObject se
 
 ### 2. Sistemas de Recompensa (`LootSpawner.cs`)
 Lógica para la creación de "drops" con comportamiento físico realista.
-- **Uso**: Lanzamiento de ítems al destruir enemigos o cofres.
-- **Técnicas**: Aplicación de `ForceMode.Impulse` y `AddTorque` mediante `Rigidbody`.
+- **Uso**: Se añade a cualquier entidad (Enemigos, Cofres, Barriles) para gestionar el lanzamiento de ítems.
+- **Técnicas**: Uso de `ForceMode.Impulse` y `AddTorque` para evitar que los ítems caigan de forma estática, mejorando el "juice" del juego.
+- **Modularidad**: Extraído de scripts monolíticos para permitir la configuración individual de fuerzas y radio por tipo de drop.
 
 ### 3. Arquitectura y Desacoplamiento (`/interfaces`)
 Uso de interfaces para crear sistemas modulares y escalables.
