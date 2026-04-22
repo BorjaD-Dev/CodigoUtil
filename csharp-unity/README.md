@@ -39,9 +39,10 @@ Controladores y utilidades para el comportamiento de entidades no jugables.
 - **Técnicas**: Validación de estado de agente (`isOnNavMesh`) y gestión de rutas.
 
 ### 7. Optimización de Memoria (`/utils`)
-Patrones para reducir el impacto del Garbage Collector en juegos de alto rendimiento.
-- **`GenericObjectPool.cs`**: Clase base para gestionar el reciclaje de objetos. Evita el uso excesivo de `Instantiate` y `Destroy` en tiempo de ejecución.
-- **Técnicas**: Uso de colas (`Queue`), herencia y expansión dinámica de memoria.
+Patrones de diseño para juegos de alto rendimiento (Bullet Hell / Roguelite).
+- **`GenericObjectPool.cs`**: Clase abstracta que gestiona la lógica de colas (`Queue`). Reduce la fragmentación de memoria.
+- **`EnemyPool.cs`**: Ejemplo de implementación heredada. Permite crear pools específicos en segundos simplemente asignando el prefab.
+- **Técnicas**: Herencia, expansión dinámica de piscina y gestión de estados `Active/Inactive`.
 
 ### 8. Feedback Visual (`/visuals`)
 Componentes diseñados para mejorar el "Game Feel" mediante respuestas visuales inmediatas a las acciones del juego.
