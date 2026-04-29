@@ -48,3 +48,8 @@ Patrones de diseño para juegos de alto rendimiento (Bullet Hell / Roguelite).
 Componentes diseñados para mejorar el "Game Feel" mediante respuestas visuales inmediatas a las acciones del juego.
 - **`BlinkEffect.cs`**: Sistema de parpadeo por materiales. Permite que cualquier entidad (jugador, enemigo u objeto rompible) brille al recibir daño.
 - **Técnicas**: Gestión de matrices de materiales (`Material[][]`), Corrutinas y soporte nativo para **Object Pooling** (limpieza en `OnDisable`).
+
+### 9. Patrones de Creación (`/utils`)
+Implementación de patrones de diseño clásicos adaptados a Unity para mejorar el rendimiento y la legibilidad.
+- **`Singleton.cs`**: Clase base genérica para Managers. Elimina la necesidad de usar `GameObject.Find`[cite: 3] o `GetComponent` en cada frame.
+- **Técnicas**: Programación genérica, seguridad de instancia única y persistencia opcional.
