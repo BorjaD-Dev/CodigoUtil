@@ -17,6 +17,12 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 - **`/menu`**: **Menú Simplificado**. Botones de gran formato con feedback visual reforzado para accesibilidad motriz y visual.
 - **`/reading-mode`**: **Modo Lectura Pro**. Modifica la arquitectura de la página para eliminar distracciones, aplica un fondo sepia y utiliza la tipografía **OpenDyslexic** para mejorar la comprensión lectora.
 
+### 3. Herramientas de Accesibilidad e Infraestructura
+
+| # | Componente / Script | Descripción | Ubicación |
+|---|---------------------|-------------|-----------|
+| 01 | `ContrastController.js` | Controlador modular nativo para conmutar y persistir modos de alto contraste bajo directrices WCAG. | `/accessibility/ContrastController.js` |
+
 ---
 
 ## 🚀 Tecnologías Aplicadas
