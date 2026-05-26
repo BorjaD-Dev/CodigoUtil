@@ -8,6 +8,7 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 
 ### 1. 🏗️ Estructura y Arquitectura (`/js`)
 - **`ComponentLoader.js`**: Utilidad basada en la **Fetch API** para cargar fragmentos de HTML dinámicamente. Permite una arquitectura modular en sitios estáticos.
+- | 02 | `ComponentLoader.js` | Enrutador y cargador asíncrono de módulos JS basado en selectores del DOM activos. | `/js/ComponentLoader.js` |
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
 Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga cognitiva y eliminar barreras visuales.
