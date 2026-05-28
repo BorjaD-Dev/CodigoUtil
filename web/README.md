@@ -10,6 +10,7 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 - **`ComponentLoader.js`**: Utilidad basada en la **Fetch API** para cargar fragmentos de HTML dinámicamente. Permite una arquitectura modular en sitios estáticos.
 - | 02 | `ComponentLoader.js` | Enrutador y cargador asíncrono de módulos JS basado en selectores del DOM activos. | `/js/ComponentLoader.js` |
 - | 03 | `FocusTrap.js` | Capturador de foco de teclado para asegurar la navegación en elementos modales bajo normas WCAG. | `/accessibility/FocusTrap.js` |
+- | 04 | `PerformanceUtils.js` | Funciones de orden superior (Debounce y Throttle) para optimizar el rendimiento de eventos globales. | `/js/PerformanceUtils.js` |
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
 Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga cognitiva y eliminar barreras visuales.
