@@ -12,6 +12,7 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 - | 03 | `FocusTrap.js` | Capturador de foco de teclado para asegurar la navegación en elementos modales bajo normas WCAG. | `/accessibility/FocusTrap.js` |
 - | 04 | `PerformanceUtils.js` | Funciones de orden superior (Debounce y Throttle) para optimizar el rendimiento de eventos globales. | `/js/PerformanceUtils.js` |
 - | 05 | `SkipLinksManager.js` | Inyector automatizado de enlaces de salto para omitir menús y mejorar navegación por teclado. | `/accessibility/SkipLinksManager.js` |
+- | 06 | `GlobalStateManager.js` | Bus de datos reactivo y persistente basado en PubSub para comunicar componentes aislados. | `/js/GlobalStateManager.js` |
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
 Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga cognitiva y eliminar barreras visuales.
