@@ -16,6 +16,7 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 - | 07 | `HttpClient.js` | Envoltorio robusto sobre Fetch API con manejo de cancelaciones por timeout y reintentos asíncronos. | `/js/HttpClient.js` |
 - | 08 | `FontSizeResizer.js` | Controlador de escala tipográfica elástica mediante variables CSS para cumplimiento WCAG. | `/accessibility/FontSizeResizer.js` |
 - | 09 | `MotionReducer.js` | Detector y adaptador dinámico para la preferencia de reducción de movimiento del sistema operativo (WCAG). | `/accessibility/MotionReducer.js` |
+- | 10 | `CacheManager.js` | Envoltorio sobre Web Storage para la persistencia temporal de datos con políticas de expiración (TTL). | `/js/CacheManager.js` |
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
 Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga cognitiva y eliminar barreras visuales.
