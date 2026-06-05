@@ -8,15 +8,6 @@ Esta sección del repositorio está dedicada a optimizar el flujo de trabajo en 
 
 ### 1. 🏗️ Estructura y Arquitectura (`/js`)
 - **`ComponentLoader.js`**: Utilidad basada en la **Fetch API** para cargar fragmentos de HTML dinámicamente. Permite una arquitectura modular en sitios estáticos.
-- | 02 | `ComponentLoader.js` | Enrutador y cargador asíncrono de módulos JS basado en selectores del DOM activos. | `/js/ComponentLoader.js` |
-- | 03 | `FocusTrap.js` | Capturador de foco de teclado para asegurar la navegación en elementos modales bajo normas WCAG. | `/accessibility/FocusTrap.js` |
-- | 04 | `PerformanceUtils.js` | Funciones de orden superior (Debounce y Throttle) para optimizar el rendimiento de eventos globales. | `/js/PerformanceUtils.js` |
-- | 05 | `SkipLinksManager.js` | Inyector automatizado de enlaces de salto para omitir menús y mejorar navegación por teclado. | `/accessibility/SkipLinksManager.js` |
-- | 06 | `GlobalStateManager.js` | Bus de datos reactivo y persistente basado en PubSub para comunicar componentes aislados. | `/js/GlobalStateManager.js` |
-- | 07 | `HttpClient.js` | Envoltorio robusto sobre Fetch API con manejo de cancelaciones por timeout y reintentos asíncronos. | `/js/HttpClient.js` |
-- | 08 | `FontSizeResizer.js` | Controlador de escala tipográfica elástica mediante variables CSS para cumplimiento WCAG. | `/accessibility/FontSizeResizer.js` |
-- | 09 | `MotionReducer.js` | Detector y adaptador dinámico para la preferencia de reducción de movimiento del sistema operativo (WCAG). | `/accessibility/MotionReducer.js` |
-- | 10 | `CacheManager.js` | Envoltorio sobre Web Storage para la persistencia temporal de datos con políticas de expiración (TTL). | `/js/CacheManager.js` |
 
 ### 2. ♿ Accesibilidad y UX (`/accessibility`)
 Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga cognitiva y eliminar barreras visuales.
@@ -31,6 +22,16 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | # | Componente / Script | Descripción | Ubicación |
 |---|---------------------|-------------|-----------|
 | 01 | `ContrastController.js` | Controlador modular nativo para conmutar y persistir modos de alto contraste bajo directrices WCAG. | `/accessibility/ContrastController.js` |
+| 02 | `ComponentLoader.js` | Enrutador y cargador asíncrono de módulos JS basado en selectores del DOM activos. | `/js/ComponentLoader.js` |
+| 03 | `FocusTrap.js` | Capturador de foco de teclado para asegurar la navegación en elementos modales bajo normas WCAG. | `/accessibility/FocusTrap.js` |
+| 04 | `PerformanceUtils.js` | Funciones de orden superior (Debounce y Throttle) para optimizar el rendimiento de eventos globales. | `/js/PerformanceUtils.js` |
+| 05 | `SkipLinksManager.js` | Inyector automatizado de enlaces de salto para omitir menús y mejorar navegación por teclado. | `/accessibility/SkipLinksManager.js` |
+| 06 | `GlobalStateManager.js` | Bus de datos reactivo y persistente basado en PubSub para comunicar componentes aislados. | `/js/GlobalStateManager.js` |
+| 07 | `HttpClient.js` | Envoltorio robusto sobre Fetch API con manejo de cancelaciones por timeout y reintentos asíncronos. | `/js/HttpClient.js` |
+| 08 | `FontSizeResizer.js` | Controlador de escala tipográfica elástica mediante variables CSS para cumplimiento WCAG. | `/accessibility/FontSizeResizer.js` |
+| 09 | `MotionReducer.js` | Detector y adaptador dinámico para la preferencia de reducción de movimiento del sistema operativo (WCAG). | `/accessibility/MotionReducer.js` |
+| 10 | `CacheManager.js` | Envoltorio sobre Web Storage para la persistencia temporal de datos con políticas de expiración (TTL). | `/js/CacheManager.js` |
+| 11 | `ScreenReaderSpeaker.js` | Motor de síntesis de voz (Text-to-Speech) nativo para asistencia auditiva interactiva. | `/accessibility/ScreenReaderSpeaker.js` |
 
 ---
 
