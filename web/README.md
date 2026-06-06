@@ -32,6 +32,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 09 | `MotionReducer.js` | Detector y adaptador dinámico para la preferencia de reducción de movimiento del sistema operativo (WCAG). | `/accessibility/MotionReducer.js` |
 | 10 | `CacheManager.js` | Envoltorio sobre Web Storage para la persistencia temporal de datos con políticas de expiración (TTL). | `/js/CacheManager.js` |
 | 11 | `ScreenReaderSpeaker.js` | Motor de síntesis de voz (Text-to-Speech) nativo para asistencia auditiva interactiva. | `/accessibility/ScreenReaderSpeaker.js` |
+| 12 | `FormValidator.js` | Validador reactivo de inputs basado en reglas con soporte nativo de atributos semánticos ARIA. | `/js/FormValidator.js` |
 
 ---
 
