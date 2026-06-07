@@ -33,6 +33,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 10 | `CacheManager.js` | Envoltorio sobre Web Storage para la persistencia temporal de datos con políticas de expiración (TTL). | `/js/CacheManager.js` |
 | 11 | `ScreenReaderSpeaker.js` | Motor de síntesis de voz (Text-to-Speech) nativo para asistencia auditiva interactiva. | `/accessibility/ScreenReaderSpeaker.js` |
 | 12 | `FormValidator.js` | Validador reactivo de inputs basado en reglas con soporte nativo de atributos semánticos ARIA. | `/js/FormValidator.js` |
+| 13 | `LiveRegionAnnouncer.js` | Inyector y puente de notificaciones dynamically accesibles (`aria-live`) para lectores de pantalla. | `/accessibility/LiveRegionAnnouncer.js` |
 
 ---
 
