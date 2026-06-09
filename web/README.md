@@ -35,6 +35,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 12 | `FormValidator.js` | Validador reactivo de inputs basado en reglas con soporte nativo de atributos semánticos ARIA. | `/js/FormValidator.js` |
 | 13 | `LiveRegionAnnouncer.js` | Inyector y puente de notificaciones dynamically accesibles (`aria-live`) para lectores de pantalla. | `/accessibility/LiveRegionAnnouncer.js` |
 | 14 | `NetworkStatusMonitor.js` | Monitor reactivo de conectividad de red con sistema de subscripción para control de estados offline. | `/js/NetworkStatusMonitor.js` |
+| 15 | `KeyboardNavigationAccordion.js` | Controlador para la navegación cíclica por teclado (flechas de dirección) en acordeones bajo normas WCAG. | `/accessibility/KeyboardNavigationAccordion.js` |
 
 ---
 
