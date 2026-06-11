@@ -38,6 +38,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 15 | `KeyboardNavigationAccordion.js` | Controlador para la navegación cíclica por teclado (flechas de dirección) en acordeones bajo normas WCAG. | `/accessibility/KeyboardNavigationAccordion.js` |
 | 16 | `LazyImageLoader.js` | Cargador asíncrono de imágenes optimizado con IntersectionObserver para reducir transferencia de red. | `/js/LazyImageLoader.js` |
 | 17 | `AriaHiddenManager.js` | Gestor estructural para alternar y restaurar estados `aria-hidden` en elementos del DOM (WCAG). | `/accessibility/AriaHiddenManager.js` |
+| 18 | `HashRouter.js` | Enrutador del lado del cliente basado en eventos `hashchange` para layouts dinámicos (SPA). | `/js/HashRouter.js` |
 
 ---
 
