@@ -41,6 +41,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 18 | `HashRouter.js` | Enrutador del lado del cliente basado en eventos `hashchange` para layouts dinámicos (SPA). | `/js/HashRouter.js` |
 | 19 | `AccessibleModalController.js` | Controlador de diálogos para memorizar y restaurar el foco del teclado de origen (WCAG). | `/accessibility/AccessibleModalController.js` |
 | 20 | `SafeEventEmitter.js` | Bus de eventos desacoplado con aislamiento de errores para flujos interactivos inter-módulo. | `/js/SafeEventEmitter.js` |
+| 21 | `LinearFocusManager.js` | Secuenciador y controlador de flujo focal direccional basado en atributos de datos (WCAG). | `/accessibility/LinearFocusManager.js` |
 
 ---
 
