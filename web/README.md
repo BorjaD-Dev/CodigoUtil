@@ -45,6 +45,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 22 | `DynamicComponentHydrator.js` | Motor de hidratación diferida controlado por interacción para optimizar métricas TTI y rendimiento Core. | `/js/DynamicComponentHydrator.js` |
 | 23 | `DOMObserver.js` | `web/js/` | Abstracción de `MutationObserver` para inicialización reactiva y asíncrona de componentes del DOM sin degradación de rendimiento. | `Listo para Producción` |
 | 24 | `EscapeKeyRegistry.js` | Registro centralizado en pila (LIFO) para gestionar cierres dinámicos con la tecla Escape bajo criterios WCAG. | `/accessibility/EscapeKeyRegistry.js` |
+| 25 | `LinkPrefetcher.js` | Optimizador de rendimiento basado en IntersectionObserver para precargar documentos vinculados visibles en pantalla. | `/js/LinkPrefetcher.js` |
 
 ---
 
