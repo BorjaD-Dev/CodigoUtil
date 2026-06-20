@@ -47,6 +47,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 24 | `EscapeKeyRegistry.js` | Registro centralizado en pila (LIFO) para gestionar cierres dinámicos con la tecla Escape bajo criterios WCAG. | `/accessibility/EscapeKeyRegistry.js` |
 | 25 | `LinkPrefetcher.js` | Optimizador de rendimiento basado en IntersectionObserver para precargar documentos vinculados visibles en pantalla. | `/js/LinkPrefetcher.js` |
 | 26 | `HapticFeedbackManager.js` | Envoltorio seguro sobre la API de vibración para proporcionar confirmaciones hápticas accesibles en dispositivos móviles. | `/accessibility/HapticFeedbackManager.js` |
+| 27 | `ExecutionThrottler.js` | Decorador funcional para regular eventos de alta frecuencia (scroll, resize) asegurando ejecuciones periódicas consistentes. | `/js/ExecutionThrottler.js` |
 
 ---
 
