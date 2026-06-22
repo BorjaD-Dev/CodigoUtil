@@ -50,6 +50,8 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 27 | `ExecutionThrottler.js` | Decorador funcional para regular eventos de alta frecuencia (scroll, resize) asegurando ejecuciones periódicas consistentes. | `/js/ExecutionThrottler.js` |
 | 28 | `PageVisibilityAnnouncer.js` | Controlador basado en Page Visibility API para mitigar la carga cognitiva y pausar recursos cuando la pestaña pierde el foco. | `/accessibility/PageVisibilityAnnouncer.js` |
 | 29 | `ViewportResizeMonitor.js` | Monitor unificado de redimensionamiento de ventana con debounce integrado para mitigar recalculaciones del DOM masivas. | `/js/ViewportResizeMonitor.js` |
+| 30 | `SystemThemeSync.js` | Sincronizador automático y reactivo con las preferencias de esquema de color (Light/Dark Mode) a nivel del sistema operativo. | `/accessibility/SystemThemeSync.js` |
+
 
 ---
 
