@@ -49,6 +49,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 26 | `HapticFeedbackManager.js` | Envoltorio seguro sobre la API de vibración para proporcionar confirmaciones hápticas accesibles en dispositivos móviles. | `/accessibility/HapticFeedbackManager.js` |
 | 27 | `ExecutionThrottler.js` | Decorador funcional para regular eventos de alta frecuencia (scroll, resize) asegurando ejecuciones periódicas consistentes. | `/js/ExecutionThrottler.js` |
 | 28 | `PageVisibilityAnnouncer.js` | Controlador basado en Page Visibility API para mitigar la carga cognitiva y pausar recursos cuando la pestaña pierde el foco. | `/accessibility/PageVisibilityAnnouncer.js` |
+| 29 | `ViewportResizeMonitor.js` | Monitor unificado de redimensionamiento de ventana con debounce integrado para mitigar recalculaciones del DOM masivas. | `/js/ViewportResizeMonitor.js` |
 
 ---
 
