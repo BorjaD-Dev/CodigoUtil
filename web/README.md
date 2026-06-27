@@ -52,6 +52,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 29 | `ViewportResizeMonitor.js` | Monitor unificado de redimensionamiento de ventana con debounce integrado para mitigar recalculaciones del DOM masivas. | `/js/ViewportResizeMonitor.js` |
 | 30 | `SystemThemeSync.js` | Sincronizador automático y reactivo con las preferencias de esquema de color (Light/Dark Mode) a nivel del sistema operativo. | `/accessibility/SystemThemeSync.js` |
 | 31 | `ScriptLazyLoader.js` | Cargador asíncrono y diferido de scripts externos basado en promesas para optimizar el rendimiento inicial y mitigar el bloqueo del hilo principal. | `/js/ScriptLazyLoader.js` |
+| 32 | `ReducedMotionController.js` | Controlador reactivo de la directiva `prefers-reduced-motion` para mitigar la fatiga cognitiva y pausar animaciones críticas. | `/accessibility/ReducedMotionController.js` |
 
 
 ---
