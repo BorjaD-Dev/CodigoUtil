@@ -53,6 +53,7 @@ Herramientas diseñadas para mejorar la experiencia de usuario, reducir la carga
 | 30 | `SystemThemeSync.js` | Sincronizador automático y reactivo con las preferencias de esquema de color (Light/Dark Mode) a nivel del sistema operativo. | `/accessibility/SystemThemeSync.js` |
 | 31 | `ScriptLazyLoader.js` | Cargador asíncrono y diferido de scripts externos basado en promesas para optimizar el rendimiento inicial y mitigar el bloqueo del hilo principal. | `/js/ScriptLazyLoader.js` |
 | 32 | `ReducedMotionController.js` | Controlador reactivo de la directiva `prefers-reduced-motion` para mitigar la fatiga cognitiva y pausar animaciones críticas. | `/accessibility/ReducedMotionController.js` |
+| 33 | `MemoryCacheProvider.js` | Proveedor de almacenamiento en caché temporal basado en RAM con expiración TTL para optimizar la reutilización de datos sin persistencia en disco. | `/js/MemoryCacheProvider.js` |
 
 
 ---
