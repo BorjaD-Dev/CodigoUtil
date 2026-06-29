@@ -55,6 +55,11 @@ Guías y plantillas para la generación de documentación técnica automatizada.
 Patrones de diseño y clases base para implementar arquitecturas sólidas y escalables (utilizadas en proyectos como *Football Manager*).
 - **`BaseEntity.java`**: Clase abstracta base que implementa **Herencia** y **Encapsulación**. Define atributos comunes y utiliza polimorfismo para obligar a las subclases a implementar sus propios métodos de visualización.
 
+### 11. Arquitectura de Comandos (`CommandQueueExecutor.java`)
+Motor de ejecución secuencial desacoplado para encapsular peticiones y transiciones de estado de la lógica de negocio.
+- **Uso**: Implementación de sistemas transaccionales con control de operaciones complejas.
+- **Técnicas**: Patrón de diseño *Command*, uso de estructuras eficientes de doble entrada (`ArrayDeque`) y control de flujos con pilas (LIFO).
+
 ---
 
 ## 🚀 Próximas Implementaciones
