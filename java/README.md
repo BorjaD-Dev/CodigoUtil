@@ -60,6 +60,11 @@ Motor de ejecución secuencial desacoplado para encapsular peticiones y transici
 - **Uso**: Implementación de sistemas transaccionales con control de operaciones complejas.
 - **Técnicas**: Patrón de diseño *Command*, uso de estructuras eficientes de doble entrada (`ArrayDeque`) y control de flujos con pilas (LIFO).
 
+### 12. Reutilización de Instancias (`ObjectPoolManager.java`)
+Estructura genérica concurrente basada en el patrón creacional *Object Pool* para optimizar la gestión de memoria RAM.
+- **Uso**: Reutilización de recursos pesados (conexiones, entidades de juego, buffers) bajo demanda.
+- **Técnicas**: Programación Genérica (`<T>`), interfaces funcionales (`java.util.function.Supplier`) y sincronización básica de hilos.
+
 ---
 
 ## 🚀 Próximas Implementaciones
